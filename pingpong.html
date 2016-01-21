@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping-Pong!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Ping-Pong</h1>
+      </div>
+
+      <div class="row">
+        <div class="sidebar col-xs-2">
+          <h4>About the Game</h4>
+          <h5>Created by:</h5>
+          <p>
+            Conner F. Belvin
+          </p>
+
+        </div>
+
+      </div>
+        <h1>Lets Play!</h1>
+        <h2>Rules</h2>
+        <p>
+          Ping Pong will count u=your number up from 1 with the following exceptions:
+        </p>
+          <ol>
+            <li>Numbers divisible by 3 return "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+
+      <form id="ping">
+        <div class="form-group">
+          <label for="pong">Enter A Number Here:</label>
+          <input id="number" type="text">
+        </div>
+
+        <button type="submit" class="btn">Calculate</button>
+      </form>
+
+      <div id="result">
+        <p class="translation"></p>
+      </div>
+    </div>
+  </body>
+</html>

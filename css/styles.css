@@ -1,0 +1,12 @@
+.jumbotron{
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm2JRoSU6Ts0LTPO6QE0FaQ0i9-qIRVcPApqsmdZ05D-ZAhR1Dxg);
+
+}
+
+.jumbotron h1 {
+  color: white;
+}
